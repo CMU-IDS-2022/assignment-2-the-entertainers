@@ -1,6 +1,6 @@
 # CMU Interactive Data Science Assigment 2
 
-* **Team members**: jsuber@andrew.cmu.edu and XXXX@andrew.cmu.edu (Update XXXX with your team's emails)
+* **Team members**: jsuber@andrew.cmu.edu and mdoctora@andrew.cmu.edu (Update XXXX with your team's emails)
 * **Online URL**: https://share.streamlit.io/cmu-ids-2022/assignment-2-the-entertainers/master/streamlit_app.py 
 
 ## Instructions
