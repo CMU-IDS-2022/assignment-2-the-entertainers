@@ -166,14 +166,13 @@ with col2:
 
     # expander - when clicked, shows the written descriptions of the features
     with st.expander("See description of features", expanded=True):
-        st.write("chroma_stft: represents information about the classification of pitch and signal structure")
-        st.write(
-            "rms: a metering tool that measures the average loudness of an audio track within a window of roughly 300 milliseconds")
+        t.write("chroma_stft: represents information about the classification of pitch and signal structure, units = intensity")
+        st.write("rms: a metering tool that measures the average loudness of an audio track within a window of roughly 300 milliseconds, units=intensity")
         st.write(
             "rolloff: denotes the approximate low bass and high treble limits in a frequency response curve, with all frequencies between being those a speaker will play accurately")
         st.write(
             "harmony: the process by which the composition of individual sounds, or superpositions of sounds, is analysed by hearing.")
-        st.write("tempo: how fast or slow a piece of music is performed")
+        st.write("tempo: how fast or slow a piece of music is performed (units = beats per minute (BPM)")
 
     with st.expander("Genre breakdown pie chart"):
         st.subheader("Proportion of genres in the dataset:")
