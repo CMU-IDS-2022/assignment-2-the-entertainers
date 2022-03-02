@@ -166,7 +166,7 @@ with col2:
 
     # expander - when clicked, shows the written descriptions of the features
     with st.expander("See description of features", expanded=True):
-        t.write("chroma_stft: represents information about the classification of pitch and signal structure, units = intensity")
+        st.write("chroma_stft: represents information about the classification of pitch and signal structure, units = intensity")
         st.write("rms: a metering tool that measures the average loudness of an audio track within a window of roughly 300 milliseconds, units=intensity")
         st.write(
             "rolloff: denotes the approximate low bass and high treble limits in a frequency response curve, with all frequencies between being those a speaker will play accurately")
