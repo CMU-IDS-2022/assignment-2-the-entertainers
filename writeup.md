@@ -1,6 +1,7 @@
 #Recognizing Patterns in Songs 
 
-![A screenshot of your application. Could be a GIF.](screenshot.png)
+![A screenshot of your application. Could be a GIF.](assign_2_viz.gif)
+
 
 TODO: Update screenshot
 
