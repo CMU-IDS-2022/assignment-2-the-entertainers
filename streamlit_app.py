@@ -21,6 +21,13 @@ def load_data():
     csv_file = "features_30_sec.csv"
     return pd.read_csv(csv_file)
 
+@st.cache
+def playAudio(genre, playlist):
+    # open and play the audio file
+    audio_file = open('genres_original/' + genre_selection + '/' + song_selection, 'rb')
+    audio_bytes = audio_file.read()
+    return audio_bytes
+
 
 # load dataset
 df = load_data()
@@ -159,10 +166,8 @@ with col2:
     playlist = df[df['label'] == genre_selection].filename
     song_selection = st.selectbox("Pick a Song", playlist, 0)
 
-    # open and play the audio file
-    audio_file = open('genres_original/' + genre_selection + '/' + song_selection, 'rb')
-    audio_bytes = audio_file.read()
-    st.audio(audio_bytes, format='audio/wav')
+    song = playAudio(genre_selection, song_selection)
+    st.audio(song, format='audio/wav')
 
     # expander - when clicked, shows the written descriptions of the features
     with st.expander("See description of features", expanded=True):
