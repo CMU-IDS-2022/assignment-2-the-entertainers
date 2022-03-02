@@ -21,7 +21,7 @@ Simple Strip Plots - We used a simple strip plot, because it allowed the user to
 
 Audio Files - We decided the presence of the audio file was a useful addition because it allows the user another way of interacting and exploring the data. Song is an auditory experience, so allowing the user to hear the audio allows for better engagement and insightful comparisons. 
 
-HeatMap 
+HeatMap - we decided to provide a heatmap to allow the user to get more insights into the intercorrelation of the features. They are able to include and exclude components with the multiselction. This gives them the ability to get a closer look at the data and develop specific findings. 
 
 Pie Chart - We added a pie chart in an expander tab. This is an optional visualization that the user can view if they would like a breakdown of the genres in the dataset. 
 
