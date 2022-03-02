@@ -1,9 +1,7 @@
 #Recognizing Patterns in Songs 
 
+![A screenshot of your application. Could be a GIF.](screenshot.png)
 ![A screenshot of your application. Could be a GIF.](assign_2_viz.gif)
-
-
-TODO: Update screenshot
 
 ## Abstract 
 Ever wonder what determines a song's genre? This application helps you discover characteristics and patterns among songs. By providing linked visualization and audio sample, you will be able to find explore and uncover enjoyable insights. We were able to use a Music Genre Classification dataset, Streamlit, and python library to create this cohesive experience. 
