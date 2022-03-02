@@ -34,7 +34,7 @@ The development process began with analyzing potential datasets to use for the a
 
 To gain more domain knowledge, we researched the features presented in the data. It was important to understand the features, so we could effectively design the appropriate data visualizations for user exploration. 
 
-After we conclude our research, we create various sketches to test out potential visualization and design orientations. After our group discussion, we began to implement our design. We divided the work into two sections. Maral handles the heatmap and pie chart visualization, and Joshua worked on the scatterplot and strip plot visualization, as well as implementing the audio file selection. 
+After we conclude our research, we create various sketches to test out potential visualization and design orientations. After our group discussion, we began to implement our design. We divided the work into two sections. Maral handles the heatmap and pie chart visualization, and Joshua worked on the scatterplot and strip plot visualization, as well as implementing the audio file selection. Once we finalize the sketch, the implementation took a week to complete, with the scatterplot and strip plot taking the longest (1-3 days). 
 
 ## Success Story
 
